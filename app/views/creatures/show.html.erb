@@ -1,4 +1,6 @@
 <div>
 	Name: <%= @creature.name %> <br>
-	Description <%= @creature.description %>
+	Description: <%= @creature.description %>
 </div>
+<h4><a href="/creatures/<%= @creature.id %>/edit">Edit this creature</a></h4>
+<h4><a href="/">Go back to Pokedex list</a></h4>
